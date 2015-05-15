@@ -1,0 +1,77 @@
+﻿@charset "utf-8";
+body,div,table,tr,td,dt,dd,p,h2,h3,ul,li,a,span,dl{ margin:0px; padding:0px;font-family: Arial, Helvetica, sans-serif;}
+body{font-family:Arial,Microsoft YaHei;background:#ffffff;}
+.hide{display:none;}
+ul{list-style:none;}
+h1,h2{font-weight:normal;margin:0px;padding:0px;font-family:'微软雅黑';font-size:24px;font-weight:bold;}
+.auto{margin:0 auto;}
+.m10{margin-top:10px;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+.cf:after,.cf:before{ display:table; content:"";}
+.cf:after{ clear:both;}
+.cf{ *zoom:1;}
+.w960{width:960px;}
+.w1000{width:1000px;}
+.w1030{width:1030px;padding-left:30px;}
+.wryh{font-family:'微软雅黑';}
+.over{overflow:hidden;}
+.pd20{padding-bottom:20px;}
+
+.head{background:url(../images/head_bg.png); repeat-x left top;height:46px;border-bottom:1px solid #d4d4d4;}
+.head p{width:960px;}
+.head p a{font-size:12px;color:#333333;float:right;line-height:46px;text-decoration:none;}
+
+.banner{background:#ff9600;height:423px;}
+.banner_img{background:url(../images/banner.png); top center no-repeat;height:460px;}
+
+.overview{width:920px;padding-left:40px;margin-top:60px;border-bottom:1px solid #e6e6e6;padding-bottom:23px;}
+.overview_txt{width:510px;float:left;margin-right:125px;}
+.overview_txt h1{font-size:24px;font-weight:bold;}
+.overview_txt p{font-size:14px;line-height:22px;color:#666;margin-top:12px;}
+
+.channel{padding-left:100px;width:860px;padding-top:30px;border-bottom:1px solid #d4d4d4;}
+.channel img{float:left;margin-right:90px;}
+.channel_txt{width:450px;float:left;padding-top:46px;}
+.channel_txt p{font-size:18px;line-height:30px;color:#666;margin-top:16px;}
+
+.series{padding-left:30px;width:930px;padding-top:40px;border-bottom:1px solid #d4d4d4;}
+.series img{float:right;margin-left:65px;}
+.series_txt{width:435px;float:right;text-align:right;padding-top:73px;}
+.series_txt p{font-size:18px;line-height:30px;color:#666;margin-top:16px;}
+
+.bearing{width:960px;padding-top:30px;border-bottom:1px solid #d4d4d4;}
+.bearing img{float:left;}
+.bearing_txt{float:right;width:455px;padding-top:30px;} 
+.bearing_txt h1{margin-bottom:16px;}
+.bearing_txt p{background:url(../images/point.png) left 9px no-repeat;padding-left:16px;font-size:18px;line-height:24px;color:#666;margin-bottom:21px;}
+.bearing_txt p span{font-weight:bold;color:#333;}
+
+.infor{width:960px;padding-top:80px;border-bottom:1px solid #d4d4d4;}
+.infor img{float:right;}
+.infor_text{width:435px;text-align:right;float:right;margin-right:100px;}
+.infor_text p{font-size:18px;line-height:30px;color:#666;margin-top:16px;}
+
+.function{width:935px;padding-left:25px;padding-top:60px;padding-bottom:40px;}
+.function img{float:left;margin-right:30px;}
+.function_text{width:475px;float:left;}
+.function_text h1{margin-bottom:20px;}
+.function_text p{background:url(../images/point.png) left 9px no-repeat;padding-left:16px;font-size:18px;line-height:24px;color:#666;margin-bottom:21px;}
+
+.last{background:#e6e6e6;}
+.down_load{width:960px;padding-bottom:25px;}
+.down_load p{padding-top:40px;}
+.down_load p.left{width:479px;float:left;border-right:1px solid #cfcfcf;}
+.down_load p.left img{margin:0px auto;display:block;margin-bottom:20px;}
+.down_load p.left span{display:block;text-align:center;font-size:14px;line-height:22px;color:#666;}
+.down_load p.right{width:480px;float:right;}
+.down_load p.right span{display:block;text-align:center;margin-bottom:20px;font-size:16px;line-height:22px;font-weight:bold;background:url(./back_line.png) no-repeat center bottom;padding-bottom:5px;}
+.down_load p.right img{display:block;margin:0px auto;}
+.down_load p.left a{display:block;text-align:center;font-size:14px;line-height:22px;color:#666;text-decoration:none;}
+.down_load p.left a:hover{color:#990000;}
+
+.foot{background:#fafafa;height:40px;}
+.foot p{font-size:12px;color:#999999;line-height:40px;}
+
+.backToTop { display: none; background:url(../images/top.jpg) no-repeat; width:64px; height:64px; position: fixed; z-index:100; _position: absolute; right:50px; bottom: 40px; _bottom: "auto"; cursor: pointer;}
