@@ -1,0 +1,113 @@
+/* 弹出框 */
+#show{width:400px;height:300px;display:none;padding:1px;position:absolute;border:1px solid #4c77aa;background:#f2f7fd;z-index:11;zoom:1;}
+#show h3{background:#4c77aa;color:#fff;font-size:14px;padding:5px;}
+#show span{position:absolute;right:3px;top:3px;display:block;cursor:pointer;color:#fff;font-weight:bold;}
+#bgbox{position:absolute;left:0;top:0;background:#000;filter:alpha(opacity=20);opacity:0.2;z-index:10}
+
+/*zm*/
+/*botton改为submit传递提交*/
+.header .search input[type="submit"]{ vertical-align:middle; line-height:45px; height:58px; width:160px; background:url(../images/searchgo.GIF) no-repeat top right; border-left:#6acd05 solid 3px; margin-left:10px;}
+.header .search input[type="submit"]:hover{background:url(../images/searchgo1.GIF) no-repeat top right;}
+/*简单页面内容控制高度、宽度*/
+.basediv{ width:964px; min-height:500px;padding-top:50px; margin:0 auto;}
+
+
+#gravatar, .commentlist .photo
+{
+    border: 4px solid #3688AF;
+    box-shadow: -1px 3px 3px rgba(30,30,30, 0.3);
+    -moz-box-shadow: -1px 3px 3px rgba(30,30,30, 0.3);
+    -webkit-box-shadow: -1px 3px 3px rgba(30,30,30, 0.3);
+}
+
+.commentlist .photo
+{
+    border: 2px solid #3688AF;
+}
+
+#commentPosted
+{
+    background: #3688AF;
+    color: #fff;
+}
+
+#comments, #tagcloud
+{
+    border-left: 1px dotted #ccc;
+}
+
+#comments h3, #tagcloud h3, #respond h3, #sidebar h3, #tagcloud .alt h3
+{
+    color: #333;
+    text-shadow: 0px -1px 1px rgba(0,0,0,0.3);
+    border-bottom: 1px dotted #ccc;
+}
+
+input.error, #respond .form-input input.error
+{
+    background: #fff;
+    color: #000;
+    border: 2px solid #ff0000;
+}
+
+#blogroll ul li
+{
+    background: url("/css/feijoa/tinyarrow.png") no-repeat scroll left 4px;
+}
+
+.formcontainer
+{
+    background: #fff;
+}
+
+.form-input input, #respond .form-input textarea, #respond .form-submit input
+{
+    background: #efefef;
+    border: 1px solid rgba(80,80,80, 0.2);
+}
+
+.form-input input:focus, #respond .form-input textarea:focus
+{
+    border: 1px solid rgba(45,45,45, 0.9);
+}
+
+.form-submit input, fieldset input[type=submit]
+{
+    background: #3688AF;
+    color: #fff;
+    text-shadow: 1px 1px 2px #3688AF;
+    box-shadow: -1px 1px 8px rgba(30,30,30, 0.2);
+    -moz-box-shadow: -1px 1px 8px rgba(30,30,30, 0.2);
+    -webkit-box-shadow: -1px 1px 8px rgba(30,30,30, 0.2);
+    -pie-background: linear-gradient(90deg, #84b5ce, rgba(54, 136, 175)); /*PIE /* I know I probably shouldn't */
+    background-image: url(/css/feijoa/gradient-black-bottom.jpg);
+    background-image: -moz-linear-gradient(center bottom , rgba(54, 136, 175, 1)  0%, rgba(54, 136, 175, 0.6) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1, rgba(54, 136, 175, 1)), color-stop(0, rgba(54, 136, 175, 0.6)));
+    background-repeat: repeat-x;
+    border: 1px solid rgba(54, 136, 175, 0.9);
+}
+
+
+#comments h3, #tagcloud h3, respond h3, #sidebar h3, #tagcloud .alt h3
+{
+    color: #333;
+    text-shadow: rgba(0,0,0,0.8);
+}
+
+.form-input input:focus, #respond .form-input textarea:focus
+{
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+ .form-submit input, fieldset input[type=submit]
+{
+    color: rgba(255,255,255,0.8);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    box-shadow: -1px 1px 8px rgba(0,0,0,0.8);
+    -moz-box-shadow: -1px 1px 8px rgba(0,0,0,0.8);
+    -webkit-box-shadow: -1px 1px 8px rgba(0,0,0,0.8);
+}
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
